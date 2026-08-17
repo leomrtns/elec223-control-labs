@@ -1,0 +1,13 @@
+name: elec223-control-labs
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy>=2.0
+  - scipy>=1.14
+  - plotly>=6.0
+  - streamlit>=1.49
+  - pytest>=8.0
+  - pip
+  - pip:
+      - control>=0.10.2
